@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB633A122B1CD14000696932 /* RatatouilleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB633A112B1CD14000696932 /* RatatouilleApp.swift */; };
+		CB633A142B1CD14000696932 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB633A132B1CD14000696932 /* ContentView.swift */; };
+		CB633A162B1CD14100696932 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB633A152B1CD14100696932 /* Assets.xcassets */; };
+		CB633A192B1CD14100696932 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB633A182B1CD14100696932 /* Preview Assets.xcassets */; };
+		CB633A232B1CD14200696932 /* RatatouilleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB633A222B1CD14200696932 /* RatatouilleTests.swift */; };
+		CB633A2D2B1CD14200696932 /* RatatouilleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB633A2C2B1CD14200696932 /* RatatouilleUITests.swift */; };
+		CB633A2F2B1CD14200696932 /* RatatouilleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB633A2E2B1CD14200696932 /* RatatouilleUITestsLaunchTests.swift */; };
+		CB633A3C2B1CD23D00696932 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB633A3B2B1CD23D00696932 /* Persistence.swift */; };
+		CB633A462B1CDF7600696932 /* MealDBApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB633A452B1CDF7600696932 /* MealDBApiClient.swift */; };
+		CB633A482B1CDFA500696932 /* ControllerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB633A472B1CDFA500696932 /* ControllerModel.swift */; };
+		CB633A4A2B1CE01200696932 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB633A492B1CE01200696932 /* Models.swift */; };
+		CB633A4C2B1CE04C00696932 /* HomeMealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB633A4B2B1CE04C00696932 /* HomeMealView.swift */; };
+		CB633A4E2B1CE07100696932 /* SettingsAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB633A4D2B1CE07100696932 /* SettingsAreaView.swift */; };
+		CB633A502B1CE09200696932 /* SettingsIngredientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB633A4F2B1CE09200696932 /* SettingsIngredientView.swift */; };
+		CB633A522B1CE0BA00696932 /* SettingsArchiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB633A512B1CE0BA00696932 /* SettingsArchiveView.swift */; };
+		CB633A542B1CE0D900696932 /* SettingsCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB633A532B1CE0D900696932 /* SettingsCategoryView.swift */; };
+		CB633A562B1CE10F00696932 /* LogoNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB633A552B1CE10F00696932 /* LogoNavigationBarView.swift */; };
+		CB633A582B1CE13700696932 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB633A572B1CE13700696932 /* RecipeDetailView.swift */; };
+		CB633A5A2B1CE17500696932 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB633A592B1CE17500696932 /* SettingsView.swift */; };
+		CB633A5C2B1CE19100696932 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB633A5B2B1CE19100696932 /* SearchView.swift */; };
+		CB633A5E2B1CE1A900696932 /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB633A5D2B1CE1A900696932 /* RecipesView.swift */; };
+		CB633A602B1CE1C400696932 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB633A5F2B1CE1C400696932 /* MainTabView.swift */; };
+		CB633A622B1CE1D600696932 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB633A612B1CE1D600696932 /* SplashView.swift */; };
+		CB633A662B1CE3EB00696932 /* Ratatouille.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB633A642B1CE3EB00696932 /* Ratatouille.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB633A1F2B1CD14200696932 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB633A062B1CD14000696932 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB633A0D2B1CD14000696932;
+			remoteInfo = Ratatouille;
+		};
+		CB633A292B1CD14200696932 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB633A062B1CD14000696932 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB633A0D2B1CD14000696932;
+			remoteInfo = Ratatouille;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB633A0E2B1CD14000696932 /* Ratatouille.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ratatouille.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB633A112B1CD14000696932 /* RatatouilleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatatouilleApp.swift; sourceTree = "<group>"; };
+		CB633A132B1CD14000696932 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CB633A152B1CD14100696932 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB633A182B1CD14100696932 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB633A1E2B1CD14200696932 /* RatatouilleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RatatouilleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB633A222B1CD14200696932 /* RatatouilleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatatouilleTests.swift; sourceTree = "<group>"; };
+		CB633A282B1CD14200696932 /* RatatouilleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RatatouilleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB633A2C2B1CD14200696932 /* RatatouilleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatatouilleUITests.swift; sourceTree = "<group>"; };
+		CB633A2E2B1CD14200696932 /* RatatouilleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatatouilleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CB633A3B2B1CD23D00696932 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		CB633A452B1CDF7600696932 /* MealDBApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDBApiClient.swift; sourceTree = "<group>"; };
+		CB633A472B1CDFA500696932 /* ControllerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerModel.swift; sourceTree = "<group>"; };
+		CB633A492B1CE01200696932 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		CB633A4B2B1CE04C00696932 /* HomeMealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMealView.swift; sourceTree = "<group>"; };
+		CB633A4D2B1CE07100696932 /* SettingsAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAreaView.swift; sourceTree = "<group>"; };
+		CB633A4F2B1CE09200696932 /* SettingsIngredientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsIngredientView.swift; sourceTree = "<group>"; };
+		CB633A512B1CE0BA00696932 /* SettingsArchiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsArchiveView.swift; sourceTree = "<group>"; };
+		CB633A532B1CE0D900696932 /* SettingsCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCategoryView.swift; sourceTree = "<group>"; };
+		CB633A552B1CE10F00696932 /* LogoNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoNavigationBarView.swift; sourceTree = "<group>"; };
+		CB633A572B1CE13700696932 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		CB633A592B1CE17500696932 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CB633A5B2B1CE19100696932 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		CB633A5D2B1CE1A900696932 /* RecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesView.swift; sourceTree = "<group>"; };
+		CB633A5F2B1CE1C400696932 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		CB633A612B1CE1D600696932 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		CB633A652B1CE3EB00696932 /* Ratatouille.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ratatouille.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB633A0B2B1CD14000696932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB633A1B2B1CD14200696932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB633A252B1CD14200696932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB633A052B1CD14000696932 = {
+			isa = PBXGroup;
+			children = (
+				CB633A3F2B1CDE1C00696932 /* Database */,
+				CB633A402B1CDE2B00696932 /* Networking */,
+				CB633A412B1CDE5600696932 /* Controllers */,
+				CB633A422B1CDE6500696932 /* Models */,
+				CB633A432B1CDE7C00696932 /* Views */,
+				CB633A102B1CD14000696932 /* Ratatouille */,
+				CB633A212B1CD14200696932 /* RatatouilleTests */,
+				CB633A2B2B1CD14200696932 /* RatatouilleUITests */,
+				CB633A0F2B1CD14000696932 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB633A0F2B1CD14000696932 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB633A0E2B1CD14000696932 /* Ratatouille.app */,
+				CB633A1E2B1CD14200696932 /* RatatouilleTests.xctest */,
+				CB633A282B1CD14200696932 /* RatatouilleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB633A102B1CD14000696932 /* Ratatouille */ = {
+			isa = PBXGroup;
+			children = (
+				CB633A112B1CD14000696932 /* RatatouilleApp.swift */,
+				CB633A152B1CD14100696932 /* Assets.xcassets */,
+				CB633A3B2B1CD23D00696932 /* Persistence.swift */,
+				CB633A172B1CD14100696932 /* Preview Content */,
+			);
+			path = Ratatouille;
+			sourceTree = "<group>";
+		};
+		CB633A172B1CD14100696932 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CB633A182B1CD14100696932 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CB633A212B1CD14200696932 /* RatatouilleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB633A222B1CD14200696932 /* RatatouilleTests.swift */,
+			);
+			path = RatatouilleTests;
+			sourceTree = "<group>";
+		};
+		CB633A2B2B1CD14200696932 /* RatatouilleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB633A2C2B1CD14200696932 /* RatatouilleUITests.swift */,
+				CB633A2E2B1CD14200696932 /* RatatouilleUITestsLaunchTests.swift */,
+			);
+			path = RatatouilleUITests;
+			sourceTree = "<group>";
+		};
+		CB633A3F2B1CDE1C00696932 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				CB633A642B1CE3EB00696932 /* Ratatouille.xcdatamodeld */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		CB633A402B1CDE2B00696932 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CB633A452B1CDF7600696932 /* MealDBApiClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CB633A412B1CDE5600696932 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CB633A472B1CDFA500696932 /* ControllerModel.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CB633A422B1CDE6500696932 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CB633A492B1CE01200696932 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CB633A432B1CDE7C00696932 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CB633A442B1CDEAC00696932 /* Components */,
+				CB633A132B1CD14000696932 /* ContentView.swift */,
+				CB633A572B1CE13700696932 /* RecipeDetailView.swift */,
+				CB633A592B1CE17500696932 /* SettingsView.swift */,
+				CB633A5B2B1CE19100696932 /* SearchView.swift */,
+				CB633A5D2B1CE1A900696932 /* RecipesView.swift */,
+				CB633A5F2B1CE1C400696932 /* MainTabView.swift */,
+				CB633A612B1CE1D600696932 /* SplashView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CB633A442B1CDEAC00696932 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CB633A4B2B1CE04C00696932 /* HomeMealView.swift */,
+				CB633A4D2B1CE07100696932 /* SettingsAreaView.swift */,
+				CB633A4F2B1CE09200696932 /* SettingsIngredientView.swift */,
+				CB633A512B1CE0BA00696932 /* SettingsArchiveView.swift */,
+				CB633A532B1CE0D900696932 /* SettingsCategoryView.swift */,
+				CB633A552B1CE10F00696932 /* LogoNavigationBarView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB633A0D2B1CD14000696932 /* Ratatouille */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB633A322B1CD14200696932 /* Build configuration list for PBXNativeTarget "Ratatouille" */;
+			buildPhases = (
+				CB633A0A2B1CD14000696932 /* Sources */,
+				CB633A0B2B1CD14000696932 /* Frameworks */,
+				CB633A0C2B1CD14000696932 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ratatouille;
+			productName = Ratatouille;
+			productReference = CB633A0E2B1CD14000696932 /* Ratatouille.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB633A1D2B1CD14200696932 /* RatatouilleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB633A352B1CD14200696932 /* Build configuration list for PBXNativeTarget "RatatouilleTests" */;
+			buildPhases = (
+				CB633A1A2B1CD14200696932 /* Sources */,
+				CB633A1B2B1CD14200696932 /* Frameworks */,
+				CB633A1C2B1CD14200696932 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB633A202B1CD14200696932 /* PBXTargetDependency */,
+			);
+			name = RatatouilleTests;
+			productName = RatatouilleTests;
+			productReference = CB633A1E2B1CD14200696932 /* RatatouilleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB633A272B1CD14200696932 /* RatatouilleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB633A382B1CD14200696932 /* Build configuration list for PBXNativeTarget "RatatouilleUITests" */;
+			buildPhases = (
+				CB633A242B1CD14200696932 /* Sources */,
+				CB633A252B1CD14200696932 /* Frameworks */,
+				CB633A262B1CD14200696932 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB633A2A2B1CD14200696932 /* PBXTargetDependency */,
+			);
+			name = RatatouilleUITests;
+			productName = RatatouilleUITests;
+			productReference = CB633A282B1CD14200696932 /* RatatouilleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB633A062B1CD14000696932 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CB633A0D2B1CD14000696932 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					CB633A1D2B1CD14200696932 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = CB633A0D2B1CD14000696932;
+					};
+					CB633A272B1CD14200696932 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = CB633A0D2B1CD14000696932;
+					};
+				};
+			};
+			buildConfigurationList = CB633A092B1CD14000696932 /* Build configuration list for PBXProject "Ratatouille" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB633A052B1CD14000696932;
+			productRefGroup = CB633A0F2B1CD14000696932 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB633A0D2B1CD14000696932 /* Ratatouille */,
+				CB633A1D2B1CD14200696932 /* RatatouilleTests */,
+				CB633A272B1CD14200696932 /* RatatouilleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB633A0C2B1CD14000696932 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB633A192B1CD14100696932 /* Preview Assets.xcassets in Resources */,
+				CB633A162B1CD14100696932 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB633A1C2B1CD14200696932 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB633A262B1CD14200696932 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB633A0A2B1CD14000696932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB633A5A2B1CE17500696932 /* SettingsView.swift in Sources */,
+				CB633A5E2B1CE1A900696932 /* RecipesView.swift in Sources */,
+				CB633A522B1CE0BA00696932 /* SettingsArchiveView.swift in Sources */,
+				CB633A4C2B1CE04C00696932 /* HomeMealView.swift in Sources */,
+				CB633A462B1CDF7600696932 /* MealDBApiClient.swift in Sources */,
+				CB633A562B1CE10F00696932 /* LogoNavigationBarView.swift in Sources */,
+				CB633A3C2B1CD23D00696932 /* Persistence.swift in Sources */,
+				CB633A142B1CD14000696932 /* ContentView.swift in Sources */,
+				CB633A582B1CE13700696932 /* RecipeDetailView.swift in Sources */,
+				CB633A122B1CD14000696932 /* RatatouilleApp.swift in Sources */,
+				CB633A602B1CE1C400696932 /* MainTabView.swift in Sources */,
+				CB633A482B1CDFA500696932 /* ControllerModel.swift in Sources */,
+				CB633A622B1CE1D600696932 /* SplashView.swift in Sources */,
+				CB633A4E2B1CE07100696932 /* SettingsAreaView.swift in Sources */,
+				CB633A5C2B1CE19100696932 /* SearchView.swift in Sources */,
+				CB633A662B1CE3EB00696932 /* Ratatouille.xcdatamodeld in Sources */,
+				CB633A502B1CE09200696932 /* SettingsIngredientView.swift in Sources */,
+				CB633A4A2B1CE01200696932 /* Models.swift in Sources */,
+				CB633A542B1CE0D900696932 /* SettingsCategoryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB633A1A2B1CD14200696932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB633A232B1CD14200696932 /* RatatouilleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB633A242B1CD14200696932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB633A2D2B1CD14200696932 /* RatatouilleUITests.swift in Sources */,
+				CB633A2F2B1CD14200696932 /* RatatouilleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB633A202B1CD14200696932 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB633A0D2B1CD14000696932 /* Ratatouille */;
+			targetProxy = CB633A1F2B1CD14200696932 /* PBXContainerItemProxy */;
+		};
+		CB633A2A2B1CD14200696932 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB633A0D2B1CD14000696932 /* Ratatouille */;
+			targetProxy = CB633A292B1CD14200696932 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CB633A302B1CD14200696932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB633A312B1CD14200696932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB633A332B1CD14200696932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ratatouille/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eksamen.Ratatouille;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB633A342B1CD14200696932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ratatouille/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eksamen.Ratatouille;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB633A362B1CD14200696932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eksamen.RatatouilleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ratatouille.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ratatouille";
+			};
+			name = Debug;
+		};
+		CB633A372B1CD14200696932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eksamen.RatatouilleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ratatouille.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ratatouille";
+			};
+			name = Release;
+		};
+		CB633A392B1CD14200696932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eksamen.RatatouilleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ratatouille;
+			};
+			name = Debug;
+		};
+		CB633A3A2B1CD14200696932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eksamen.RatatouilleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ratatouille;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB633A092B1CD14000696932 /* Build configuration list for PBXProject "Ratatouille" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB633A302B1CD14200696932 /* Debug */,
+				CB633A312B1CD14200696932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB633A322B1CD14200696932 /* Build configuration list for PBXNativeTarget "Ratatouille" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB633A332B1CD14200696932 /* Debug */,
+				CB633A342B1CD14200696932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB633A352B1CD14200696932 /* Build configuration list for PBXNativeTarget "RatatouilleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB633A362B1CD14200696932 /* Debug */,
+				CB633A372B1CD14200696932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB633A382B1CD14200696932 /* Build configuration list for PBXNativeTarget "RatatouilleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB633A392B1CD14200696932 /* Debug */,
+				CB633A3A2B1CD14200696932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CB633A642B1CE3EB00696932 /* Ratatouille.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CB633A652B1CE3EB00696932 /* Ratatouille.xcdatamodel */,
+			);
+			currentVersion = CB633A652B1CE3EB00696932 /* Ratatouille.xcdatamodel */;
+			path = Ratatouille.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CB633A062B1CD14000696932 /* Project object */;
+}

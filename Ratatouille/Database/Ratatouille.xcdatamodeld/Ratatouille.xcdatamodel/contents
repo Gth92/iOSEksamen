@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22225" systemVersion="23B81" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Area" representedClassName="Area" syncable="YES" codeGenerationType="class">
+        <attribute name="areaName" optional="YES" attributeType="String"/>
+        <relationship name="meals" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Meal" inverseName="areas" inverseEntity="Meal"/>
+    </entity>
+    <entity name="Category" representedClassName="Category" syncable="YES" codeGenerationType="class">
+        <attribute name="categoryDescription" optional="YES" attributeType="String"/>
+        <attribute name="categoryId" optional="YES" attributeType="String"/>
+        <attribute name="categoryImage" optional="YES" attributeType="String"/>
+        <attribute name="categoryName" optional="YES" attributeType="String"/>
+        <relationship name="meals" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Meal" inverseName="categories" inverseEntity="Meal"/>
+    </entity>
+    <entity name="Ingredient" representedClassName="Ingredient" syncable="YES" codeGenerationType="class">
+        <attribute name="ingredientId" optional="YES" attributeType="String"/>
+        <attribute name="ingredientName" optional="YES" attributeType="String"/>
+        <attribute name="quantity" optional="YES" attributeType="String"/>
+        <relationship name="meals" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Meal" inverseName="ingredients" inverseEntity="Meal"/>
+    </entity>
+    <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Meal" representedClassName="Meal" syncable="YES" codeGenerationType="class">
+        <attribute name="area" optional="YES" attributeType="String"/>
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="isArchived" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isFavorite" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="mealId" optional="YES" attributeType="String"/>
+        <attribute name="mealImage" optional="YES" attributeType="String"/>
+        <attribute name="mealInstructions" optional="YES" attributeType="String"/>
+        <attribute name="mealName" optional="YES" attributeType="String"/>
+        <relationship name="areas" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Area" inverseName="meals" inverseEntity="Area"/>
+        <relationship name="categories" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="meals" inverseEntity="Category"/>
+        <relationship name="ingredients" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Ingredient" inverseName="meals" inverseEntity="Ingredient"/>
+    </entity>
+</model>
